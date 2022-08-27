@@ -1,6 +1,6 @@
 # z_kv
 
-目前kv引擎相关的知识繁杂，自己动手从0实现一个KV存储引擎不失为一种很好的学习路线
+- 目前kv引擎相关的知识繁杂，自己动手从0实现一个KV存储引擎不失为一种很好的学习路线
 
 本项目虽以学习为目的，但是仍以工业级应用为目标，实现用于持久化存储用户日志信息。语言为C++，平台为linux。
 
@@ -12,11 +12,10 @@
 
 - 系统结构
 
-![image](https://user-images.githubusercontent.com/69743646/187028553-0c3f2e90-aff7-4707-ba37-67c3baecb2d4.png)
+![image](https://user-images.githubusercontent.com/69743646/187028707-a4063ed1-b929-4b8e-b1ef-79798e71de4e.png)
 
 
-
-to do:
+- to do:
 
 性能优化
 
