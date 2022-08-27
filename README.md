@@ -8,8 +8,6 @@
 
 > 磁盘结构：采用LSM-tree模式，设计了sst文件结构，协程负责并行压缩，设计预写日志负责崩溃后的数据恢复
 
-> 优化：批量写提高写入效率，针对大value进行kv分离，垃圾回收机制
-
 - 系统结构
 
 ![image](https://user-images.githubusercontent.com/69743646/187028707-a4063ed1-b929-4b8e-b1ef-79798e71de4e.png)
@@ -17,8 +15,10 @@
 
 - to do:
 
-性能优化
+> 性能优化：批量写提高写入效率，针对大value进行kv分离，垃圾回收机制
 
-hotring
+> hotring
 
-单机事务
+> 单机事务
+
+> ... ...
